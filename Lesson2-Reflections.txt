@@ -31,6 +31,9 @@ organized? How would branches help?
        (experimental, Italian version) in their own branch.
 
 How do the diagrams help you visualize the branch structure?
+      You are able to see the past history of each branch and understand the
+       parent/child relationship of the commits. You can see where each branch
+       starts, ends, and whether it was merged with the master or another branch.
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
