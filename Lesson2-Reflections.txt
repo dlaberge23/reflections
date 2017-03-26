@@ -37,6 +37,11 @@ How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
+      The branches merge into one branch. The commits from the branches are all
+       there, ordered by time. We can still check a commit against its parent
+       with git show (commit id). git merge (branch) (branch) merges and
+       git branch -d (branch) will delete a branch. When a branch is deleted you
+       can still see it's previous commits.
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
