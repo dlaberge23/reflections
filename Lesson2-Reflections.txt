@@ -4,9 +4,16 @@ What happens when you initialize a repository? Why do you need to do it?
        a commit, as it still doesn't know which files to commit. Without creating
        the repository, there is nowhere to save the meta data that allows us to
        look through previous commits.
-       
+
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
+      Files are added to the staging area from the working directory (git add).
+       However, they aren't committed yet(repository), but they are recognized
+       by git in .git folder.
+      This allows us to logically connect specific files into one commit, or keep
+       them all in separate commits. We can group files or keep them separate,
+       which will allow us to find changes that may have affected multiple files
+       (ie. program files) or scan an unrelated file (ie. text document).
 
 How can you use the staging area to make sure you have one commit per logical
 change?
