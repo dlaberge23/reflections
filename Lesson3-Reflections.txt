@@ -3,3 +3,8 @@ When would you want to use a remote repository rather than keeping all your work
        or working from multiple machines. As someone who bounces between 3 different devices when
        editing code it makes sense to have my repository stored in a location where it is easily
        pulled to any device. It is also convenient for sharing my work with others and getting feedback.
+       
+Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
+      Manually pulling give you more control. There won't be any unexpected changes to you local version. You may be working in a
+       repository with a new version of the code, but there may be bugs. I wouldn't want to add those bugs to my local version. I would
+       want to wait until the bugs have been fixed.
