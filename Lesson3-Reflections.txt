@@ -24,3 +24,9 @@ What is the benefit of having a copy of the last known state of the remote store
       When working offline you can check which changes are made in the online repository vs. the local.
        It is an easy way to check the remote version, and decide whether you are ready to merge your own
        branches into it. You can also perform the merge while offline.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+      It would be harder to collaborate without Github and Git. Your documentation in-line would need to reflect all
+       changes, signed by each user and possibly dated/marked for review. You wouldn't be editing branches unless
+       you stored multiple copies of files, and it would be more difficult to merge these files together. Everything
+       would have to be communicated extraordinarily well, and the process would be much slower to avoid errors.
