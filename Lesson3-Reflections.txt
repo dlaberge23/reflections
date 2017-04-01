@@ -30,3 +30,9 @@ How would you collaborate without using Git or GitHub? What would be easier, and
        changes, signed by each user and possibly dated/marked for review. You wouldn't be editing branches unless
        you stored multiple copies of files, and it would be more difficult to merge these files together. Everything
        would have to be communicated extraordinarily well, and the process would be much slower to avoid errors.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+      I would use direct changes to master more often when working alone. If I was working in a group, branches would allow change
+       to be made without modifying master. They could then be reviewed and, when approved, merged into master. The benefit of
+       branching: reviewed changes before modifying the master copy. However, this is a slower process, one which may not be
+       necessary when working alone.
